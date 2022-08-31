@@ -1,0 +1,52 @@
+body {
+  background-color: lightgray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkred;
+  margin: 1vh;
+  padding: 1ch;
+}
+input, button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid darkgray;
+  color: darkblue;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: gray}
+
+tr:hover {
+  background-color: lightgray;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: darkblue
+}
+.select {
+  padding-top: 10px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: darkblue;
+}
